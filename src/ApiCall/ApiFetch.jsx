@@ -1,12 +1,21 @@
 import React from 'react'
 
 function ApiFetch() {
+
+
+
   async function ApiCall() {
     const res = await fetch("https://dummyjson.com/users");
      const data = await res.json();
     console.log(data);
     
 }
+  async function  ApiCallex() {
+    const resx = await fetch ("kvdjl");
+    const dataex = await resx.json();
+    console.log(dataex ,"dvcdvd")
+    
+  }
 
   return (
     <div>

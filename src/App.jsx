@@ -8,6 +8,7 @@ import UseLayoutEffect from "./hooks/UseLayoutEffect/UseLayoutEffect";
 import Router from "./Router";
 import HighOrderBase from "./HigherOrder/HighOrderBase";
 import ApiCallBase from "./ReactQuery/ApiCallBase";
+import Pratices from "./components/Pratices";
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
       {/* <UseContext/> */}
       {/* <UseReducer/> */}
       {/* <UseLayoutEffect/> */}
-     <Router/> 
+     {/* <Router/>  */}
 
       {/* react query 
      <ApiCallBase/>
 */}
       {/* <HighOrderBase/> */}
+      <Pratices user={0}/>
     </div>
   );
 }
